@@ -16,12 +16,49 @@ Criar uma aplicação de login e cadastro de usuários, implementando:
 ```plaintext
 .
 ├── login-auth-api/
-│   ├── .idea/
-│   ├── .mvn/
-│   ├── .vscode
-│   ├── Navegacao.php
-│   ├── OutrasFormacoesController.php
-│   └── UsuarioController.php
+│   ├── .mvn/wrapper/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/login_auth_api/
+│   │   │   │   ├── controllers/
+│   │   │   │   │   ├── AuthController.java
+│   │   │   │   │   └── UserController.java
+│   │   │   │   ├── domain/user/
+│   │   │   │   │   └── User.java
+│   │   │   │   ├── dto/
+│   │   │   │   │   ├── LoginRequestDTO.java
+│   │   │   │   │   ├── RegisterRequestDTO.java
+│   │   │   │   │   └── ResponseDTO.java
+│   │   │   │   ├── infra/
+│   │   │   │   │   ├── cors/
+│   │   │   │   │   │   └── CorsConfig.java
+│   │   │   │   │   └── security/
+│   │   │   │   │       ├── CustomUserDetailsService.java
+│   │   │   │   │       ├── SecurityConfig.java
+│   │   │   │   │       ├── SecurityFilter.java
+│   │   │   │   │       └── TokenService.java
+│   │   │   │   ├── repositories/
+│   │   │   │   │   └── UserRepository.java
+│   │   │   │   └── LoginAuthApiApplication.java
+│   │   │   └── resources/
+│   │   │       └── application.properties
+│   │   └── test/java/com/example/login_auth_api/
+│   │       └── LoginAuthApiApplicationTests.java
+│   ├── .gitignore
+│   ├── mvnw
+│   ├── mvnw.cmd
+│   └── pom.xml
 ├── login-page/
-│   └── Enlatados.png
+│   ├── .vscode/
+│   ├── src/
+│   ├── .editorconfig
+│   ├── .gitignore
+│   ├── README.md
+│   ├── angular.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+├── .DS_Store
 └── README.md

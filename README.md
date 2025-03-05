@@ -1,2 +1,14 @@
-# login-angular-java
-Este repositório contém um projeto de uma tela de login e cadastro, com o front-end desenvolvido em Angular e o back-end utilizando Java com Spring Boot.
+# Login de Usuários em Angular e Java
+
+Este repositório contém um projeto de uma tela de login e cadastro, com front-end desenvolvido em Angular e back-end utilizando Java com Spring Boot. A aplicação oferece funcionalidades de login e registro de usuários.
+
+## 🚀 Objetivo
+Criar uma aplicação de login e cadastro de usuários, implementando:
+- Angular: Front-end para a interface de login e cadastro.
+- Spring Boot (Java): Lógica e estrutura do back-end.
+
+## 🔒 Conceitos Abordados
+- Implementação de um sistema de login e cadastro de usuários.
+- Comunicação entre front-end e back-end via API RESTful.
+
+

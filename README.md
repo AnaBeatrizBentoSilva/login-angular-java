@@ -11,4 +11,17 @@ Criar uma aplicação de login e cadastro de usuários, implementando:
 - Implementação de um sistema de login e cadastro de usuários.
 - Comunicação entre front-end e back-end via API RESTful.
 
+## 📂 Estrutura do Repositório
 
+```plaintext
+.
+├── login-auth-api/
+│   ├── .idea/
+│   ├── .mvn/
+│   ├── .vscode
+│   ├── Navegacao.php
+│   ├── OutrasFormacoesController.php
+│   └── UsuarioController.php
+├── login-page/
+│   └── Enlatados.png
+└── README.md

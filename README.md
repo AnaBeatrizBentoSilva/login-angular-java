@@ -100,6 +100,7 @@ Criar uma aplicação de login e cadastro de usuários, implementando:
 │   │   │   │   └── password-icon.svg
 │   │   │   └── .gitkeep
 │   │   ├── styles/
+│   │   │   └── variables.scss
 │   │   ├── favicon.ico
 │   │   ├── index.html
 │   │   ├── main.ts

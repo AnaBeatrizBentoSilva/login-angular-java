@@ -93,6 +93,12 @@ Criar uma aplicação de login e cadastro de usuários, implementando:
 │   │   │   ├── app.config.ts
 │   │   │   └── app.routes..ts
 │   │   ├── assets/
+│   │   │   ├── svg/
+│   │   │   │   ├── email-icon.svg
+│   │   │   │   ├── logo.svg
+│   │   │   │   ├── main-ilustration.svg
+│   │   │   │   └── password-icon.svg
+│   │   │   └── .gitkeep
 │   │   ├── styles/
 │   │   ├── favicon.ico
 │   │   ├── index.html

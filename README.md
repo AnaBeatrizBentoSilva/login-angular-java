@@ -51,6 +51,53 @@ Criar uma aplicação de login e cadastro de usuários, implementando:
 ├── login-page/
 │   ├── .vscode/
 │   ├── src/
+│   │   ├── app/
+│   │   │   ├── components
+│   │   │   │   ├── default-login-layout/
+│   │   │   │   │   ├── default-login-layout.component.html
+│   │   │   │   │   ├── default-login-layout.component.scss
+│   │   │   │   │   ├── default-login-layout.component.spec.ts
+│   │   │   │   │   └── default-login-layout.component.ts
+│   │   │   │   └── primary-input/
+│   │   │   │       ├── primary-input.component.html
+│   │   │   │       ├── primary-input.component.scss
+│   │   │   │       ├── primary-input.component.spec.ts
+│   │   │   │       └── primary-input.component.ts
+│   │   │   ├── pages
+│   │   │   │   ├── login/
+│   │   │   │   │   ├── login.component.html
+│   │   │   │   │   ├── login.component.scss
+│   │   │   │   │   ├── login.component.spec.ts
+│   │   │   │   │   └── login.component.ts
+│   │   │   │   ├── signup/
+│   │   │   │   │   ├── signup.component.html
+│   │   │   │   │   ├── signup.component.scss
+│   │   │   │   │   ├── signup.component.spec.ts
+│   │   │   │   │   └── signup.component.ts
+│   │   │   │   └── user/
+│   │   │   │       ├── user.component.html
+│   │   │   │       ├── user.component.scss
+│   │   │   │       ├── user.component.spec.ts
+│   │   │   │       └── user.component.ts
+│   │   │   ├── services
+│   │   │   │   ├── auth-guard.service.spec.ts
+│   │   │   │   ├── auth-guard.service.ts
+│   │   │   │   ├── login.service.spec.ts
+│   │   │   │   └── login.service.ts
+│   │   │   ├── types
+│   │   │   │   └── login-response.type.ts
+│   │   │   ├── app.component.html
+│   │   │   ├── app.component.scss
+│   │   │   ├── app.component.spect.ts
+│   │   │   ├── app.component.ts
+│   │   │   ├── app.config.ts
+│   │   │   └── app.routes..ts
+│   │   ├── assets/
+│   │   ├── styles/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── main.ts
+│   │   └── styles.scss
 │   ├── .editorconfig
 │   ├── .gitignore
 │   ├── README.md
